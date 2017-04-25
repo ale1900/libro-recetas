@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="col-md-12">
+    <img src="{{recetaSeleccionada?.imagenUrl}}" alt="">
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <h1>{{recetaSeleccionada?.nombre}}</h1>
+  </div>
+</div>
+<div class="col-md-12">
+  <button class="btn btn-success">Añadir a la lista de compra</button>
+  <button class="btn btn-primary">Editar</button>
+  <button class="btn btn-danger">Eliminar</button>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <p>{{recetaSeleccionada?.descripcion}}</p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <ul class="list-group">
+      <li class="list-group-item">{{recetaSeleccionada?.ingredientes}}</li>
+    </ul>
+  </div>
+</div>
